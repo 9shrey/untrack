@@ -1,0 +1,28 @@
+<html><head><link rel=stylesheet href=_shot.css><style>
+.cols{display:flex;gap:48px}.steps{flex:1;font-size:22px;line-height:1.45}
+.steps li{margin-bottom:16px;padding-left:6px}.steps li::marker{color:#0f766e;font-weight:700}
+code{font-family:"JetBrains Mono","DejaVu Sans Mono",monospace;font-size:17px;background:#ccfbf1;padding:2px 6px;border-radius:5px}
+.phone{width:300px;height:520px;border-radius:44px;background:#0f172a;padding:14px;flex:none;margin-top:0}
+.scr{background:#fff;border-radius:32px;height:100%;padding:28px 18px;display:flex;flex-direction:column;justify-content:flex-end}
+.sheet{background:#f1f5f9;border-radius:18px;padding:16px}
+.act{display:flex;align-items:center;gap:12px;background:#fff;border-radius:12px;padding:12px;font-size:18px;margin-top:8px}
+.act img{width:34px;border-radius:8px}.hl{outline:3px solid #14b8a6}
+.toast{background:#0f766e;color:#fff;border-radius:14px;padding:12px;font-size:16px;margin-bottom:auto;text-align:center}
+</style></head><body>
+<h1>On iPhone too: <b>Share → Clean Link</b></h1>
+<p class=sub>A free iPhone Shortcut works from any app's Share button. Steps are in the description.</p>
+<div class=cols>
+<ol class=steps>
+<li>Shortcuts app → <b>+</b>, name it “Clean Link”, turn on <b>Show in Share Sheet</b></li>
+<li><b>Replace Text</b> (Regular Expression on) to remove <code>si=</code>, <code>utm_</code> and more</li>
+<li><b>Replace Text</b> to tidy the leftover <code>?</code></li>
+<li><b>Copy to Clipboard</b></li>
+<li>In YouTube, Spotify or Instagram: <b>Share → Clean Link</b>, then paste anywhere</li>
+</ol>
+<div class=phone><div class=scr>
+<div class=toast>✓ Clean link copied</div>
+<div class=sheet><div style="font-size:15px;color:#64748b">youtu.be/dQw4w9WgXcQ</div>
+<div class="act hl"><img src="../icons/icon-128.png">Clean Link</div>
+<div class=act>📋 Copy</div><div class=act>✉️ Mail</div></div>
+</div></div>
+</div></body></html>
