@@ -33,7 +33,7 @@ isn't broken.
 
 ## Install on a computer
 
-1. Go to [**Releases**](../../releases/latest) and download `untrack-chrome.zip`.
+1. Download [**untrack-chrome.zip**](https://github.com/9shrey/untrack/releases/latest/download/untrack-chrome.zip) (from [Releases](https://github.com/9shrey/untrack/releases/latest)).
 2. Unzip it, and put the folder somewhere it can stay (for example Documents). Chrome loads
    it from there, so don't delete it.
 3. Open `chrome://extensions` (in Edge: `edge://extensions`).
